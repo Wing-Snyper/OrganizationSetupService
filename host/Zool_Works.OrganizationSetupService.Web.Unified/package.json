@@ -1,0 +1,12 @@
+{
+	"version": "0.1.0",
+	"name": "demo-app",
+	"private": true,
+	"dependencies": {
+		"@volo/abp.aspnetcore.mvc.ui.theme.lepton": "^4.2.1",
+		"@volo/saas": "^4.2.1",
+		"@volo/audit-logging": "^4.2.1",
+		"@volo/identity": "^4.2.1",
+		"@volo/account": "^4.2.1"
+	}
+}

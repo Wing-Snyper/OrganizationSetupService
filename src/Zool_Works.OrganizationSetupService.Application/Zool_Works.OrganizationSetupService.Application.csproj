@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Zool_Works.OrganizationSetupService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="4.2.1" />
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="4.2.1" />
+    <ProjectReference Include="..\Zool_Works.OrganizationSetupService.Application.Contracts\Zool_Works.OrganizationSetupService.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Zool_Works.OrganizationSetupService.Domain\Zool_Works.OrganizationSetupService.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

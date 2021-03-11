@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Zool_Works.OrganizationSetupService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Http.Client" Version="4.2.1" />
+    <ProjectReference Include="..\Zool_Works.OrganizationSetupService.Application.Contracts\Zool_Works.OrganizationSetupService.Application.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
